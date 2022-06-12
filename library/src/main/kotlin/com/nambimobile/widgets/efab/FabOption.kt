@@ -162,13 +162,13 @@ class FabOption : FloatingActionButton {
      * */
     val label = Label(context).apply {
         labelText = null
-        labelTextColor = ContextCompat.getColor(context, android.R.color.white)
+        labelTextColor = ContextCompat.getColor(context, android.R.color.black)
         labelTextSize = resources.getDimension(R.dimen.efab_label_text_size)
         labelFont = Typeface.DEFAULT
-        labelBackgroundColor = ContextCompat.getColor(context, R.color.efab_label_background)
+        labelBackgroundColor = ContextCompat.getColor(context, android.R.color.transparent)
         labelElevation = resources.getDimensionPixelSize(R.dimen.efab_label_elevation)
         position = LabelPosition.LEFT
-        marginPx = 50f
+        marginPx = 0f
         translationXPx = 100f
         visibleToHiddenAnimationDurationMs = 75L
         hiddenToVisibleAnimationDurationMs = 250L
